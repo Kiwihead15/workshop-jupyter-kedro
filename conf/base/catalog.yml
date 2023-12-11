@@ -19,3 +19,8 @@ openrepair-0_3:
       product_age: ${pl:Float64}
       group_identifier: ${pl:Utf8}
     try_parse_dates: true
+
+wordcloud-plot:
+  type: Matplotlib.matplotlibWriter
+  filepath: data/09_reporting/wordcloud.png
+  

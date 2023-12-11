@@ -11,3 +11,4 @@ wordcloud
 
 kedro~=0.18.8
 kedro-datasets[polars]~=1.7
+kedro-viz
