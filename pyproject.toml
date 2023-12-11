@@ -1,0 +1,14 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "openrepair"
+authors = [{name = "Pablo Biosca", email = "pablobiosca@gmail.com"}]
+readme = "README.md"
+dynamic = ["version", "description"]
+
+[tool.kedro]
+package_name = "openrepair"
+project_name = "openrepair"
+kedro_init_version = "0.18.14"

@@ -108,7 +108,7 @@ OpenRepair data analysis library code.
 __version__ = "0.1.0"
 ```
 
-3. Verify that the project can be installed as a Python library running `pip install --editable .`.
+3. Verify that the project can be installed as a Python library running `.
 4. Add the Kedro build configuration to `pyproject.toml`:
 
 ```toml
