@@ -10,9 +10,9 @@ from .nodes import plot_wordcloud
 def create_pipeline(**kwargs)-> Pipeline:
     return pipeline([
         node(
-            func=plot_wordcloud,
-            inputs=["openrepair-0_3"],
-            outputs="wordcloud-plot",
-            name="plot_wordcloud_node",
+            func = plot_wordcloud,
+            inputs = ["openrepair-0_3"],
+            outputs = "wordcloud-plot",
+            name = "plot_wordcloud_node",
         ),
     ])

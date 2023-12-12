@@ -8,7 +8,7 @@ import matplotlib as mpl
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud, STOPWORDS
 
-def plot_wordcloud(df:pl.Dataframe)-> Figure:
+def plot_wordcloud(df:pl.DataFrame)-> Figure:
     problems_gbr = list(
     df.filter(
         (pl.col("country") == "GBR") 

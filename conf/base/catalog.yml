@@ -21,6 +21,6 @@ openrepair-0_3:
     try_parse_dates: true
 
 wordcloud-plot:
-  type: Matplotlib.matplotlibWriter
+  type: matplotlib.MatplotlibWriter
   filepath: data/09_reporting/wordcloud.png
   
